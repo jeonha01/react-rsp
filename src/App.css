@@ -1,6 +1,9 @@
 .box {
   border: 1px solid black;
   width: 500px;
+  margin: 50px;
+  text-align: center;
+  background-color: white;
 }
 
 .item-img {
@@ -26,4 +29,39 @@
 .tie {
   border: 10px solid black;
   color: black;
+}
+
+body {
+  background-color: rgb(214, 230, 245);
+  font-family: '둥글';
+}
+
+@font-face {
+  font-family: '둥글';
+  font-style: 'normal';
+  font-weight: 400;
+  src: url('KCC-Ganpan.woff');
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.buttons>button {
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 30px;
+  color: gold;
+  border: none;
+  cursor: pointer;
+  background-color: azure;
+}
+
+.text {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 50px;
 }
